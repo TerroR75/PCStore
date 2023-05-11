@@ -8,7 +8,7 @@ interface Props {
 
 function ProductList({ products }: Props) {
   return (
-    <Grid container spacing={4} sx={{ mt: 8 }}>
+    <Grid container spacing={4}>
       {products.map((product: Product) => {
         return (
           <Grid item xs={3} key={product.id}>
